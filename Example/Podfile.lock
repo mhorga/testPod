@@ -1,0 +1,14 @@
+PODS:
+  - randomizeCategoryOnNSArray (0.1.0)
+
+DEPENDENCIES:
+  - randomizeCategoryOnNSArray (from `../`)
+
+EXTERNAL SOURCES:
+  randomizeCategoryOnNSArray:
+    :path: ../
+
+SPEC CHECKSUMS:
+  randomizeCategoryOnNSArray: aebc7fbbd1fe40f00a0965fa8ea5c9284f04fd11
+
+COCOAPODS: 0.35.0
