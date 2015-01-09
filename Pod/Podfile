@@ -1,0 +1,8 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+
+target 'randomizeCategoryOnNSArray', :exclusive => true do
+  pod "randomizeCategoryOnNSArray", :path => "../"
+
+  
+end
