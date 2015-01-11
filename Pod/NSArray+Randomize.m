@@ -11,7 +11,7 @@
 @implementation NSArray (Randomize)
 
 - (NSArray *)randomizeArray {
-    NSMutableArray *randomizedArray = [NSMutableArray self];
+    NSMutableArray *randomizedArray = [self mutableCopy];
     NSUInteger count = [self count];
     for (NSUInteger i = 0; i < count; ++i) {
         NSInteger remainingCount = count - i;
